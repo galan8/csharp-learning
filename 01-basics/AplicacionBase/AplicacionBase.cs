@@ -69,7 +69,14 @@ namespace AplicacionBase{
 
         resultado = a % b;
         Console.WriteLine("Resultado = {0}", resultado);
-
+        
+        //Pide un numero
+        Console.WriteLine("Ingresa un numero:");
+        string entrada = Console.ReadLine();
+        int numero = int.Parse(entrada);
+        resultado = numero * 2;
+        Console.WriteLine("Resultado = {0}", resultado);
+        
         }
     }
 }
