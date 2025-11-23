@@ -1,14 +1,13 @@
-# Binarios
+gitignore# Compiled files
 *.exe
 *.dll
 *.pdb
+*.obj
 
-# Carpetas de compilación
+# Build output
 bin/
 obj/
-.vs/
 
-# Archivos temporales
-*.cache
+# User-specific files
 *.suo
 *.user
